@@ -21,6 +21,7 @@ class _BluetoothSwitchState extends State<BluetoothSwitch> {
     bool status = context.watch<BluetoothConnection>().statusBluetooth;
     return Container(
       height: 20,
+      margin: const EdgeInsets.only(top: 10, left: 10),
       child: Align(
         alignment: Alignment.topRight,
         child: Switch(
